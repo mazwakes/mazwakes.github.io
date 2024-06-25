@@ -1,0 +1,43 @@
+Website Layout:
+- Use CSS Grid instead of Flexbox
+
+Color Palette:
+    Primary Colors:
+    - White (#FFFFFF): For the background to keep it light and clean.
+    - Dark Green (#004D40): For accents, headers, and important events.
+    - Light Green (#E0F2F1): For subtle backgrounds and hover effects.
+    Secondary Colors:
+    - Grey (#757575): For text and secondary elements.
+    - Light Grey (#F5F5F5): For borders, background sections, and to add depth.
+    - Dark Grey (#B0B0B0): For footer or other less prominent areas.
+
+Font Styles:
+    Headings:
+    - Font: Roboto Slab
+    - Weight: Bold for headings
+    - Size: Adjust sizes for different levels (e.g. h1, h2, h3) to establish a clear hierarchy.
+    Body Text:
+    - Font: Raleway
+    - Weight: Lighter
+    - Size: 16px (mobile), 17px (tablet), 18px (desktop)
+    Code Snippets:
+    - Font: Source Code Pro
+
+Header:
+    Mobile View: 60px to 70px
+    Tablet View: 70px to 80px
+    Desktop View: 80px to 100px
+
+Design Tips
+1. Consistency
+    Maintain a consistent color scheme and typography throughout the site to ensure a cohesive look.
+2. Whitespace
+    Use plenty of whitespace to give the design room to breathe and to enhance readability.
+3. Navigation:
+    Keep the navigation simple and intuitive. Use the dark green for active links and highlights.
+4. Images and Graphics:
+    Use high-quality images and graphics that complement the color scheme. Avoid clutter.
+5. Responsiveness:
+    Ensure your website is responsive and looks good on all devices. Use media queries to adjust the layout for different screen sizes.
+6. Accessibility:
+    Make sure to use accessible color contrasts and consider adding alt text to images, ARIA labels, etc., to improve accessibility.
