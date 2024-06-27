@@ -1,3 +1,8 @@
+Different Views:
+- Desktop View: min-width: 1025px
+- Tablet View: min-width: 768px and max-width: 1024px
+- Mobile View: max-width: 767px
+
 Website Layout:
 - Use CSS Grid instead of Flexbox
 
@@ -24,9 +29,14 @@ Font Styles:
     - Font: Source Code Pro
 
 Header:
-    Mobile View: 60px to 70px
-    Tablet View: 70px to 80px
-    Desktop View: 80px to 100px
+    Mobile View: 65px
+    Tablet View: 75px
+    Desktop View: 90px
+
+Footer:
+    Mobile View: 30px
+    Tablet View: 35px
+    Desktop View: 45px
 
 Design Tips
 1. Consistency
