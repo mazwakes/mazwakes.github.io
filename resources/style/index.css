@@ -1,45 +1,51 @@
-:root{
-    --background-color: #FFFFFF; /*background*/
-    --primary-color-1: #004D40; /*accents, headers, important events*/
-    --primary-color-2: #E0F2F1; /*subtle backgrounds, hover effect*/
-    --secondary-color-1: #757575; /*text and secondary elements*/
-    --secondary-color-2: #F5F5F5; /*borders, background sections, add depth*/
-    --secondary-color-3: #B0B0B0; /*footer, less prominent areas*/
-    --links-color: #007755; /*color for links*/
+:root {
+  --background-color: #ffffff; /*background*/
+  --primary-color-1: #004d40; /*accents, headers, important events*/
+  --primary-color-2: #e0f2f1; /*subtle backgrounds, hover effect*/
+  --secondary-color-1: #757575; /*text and secondary elements*/
+  --secondary-color-2: #f5f5f5; /*borders, background sections, add depth*/
+  --secondary-color-3: #b0b0b0; /*footer, less prominent areas*/
+  --links-color: #007755; /*color for links*/
 }
 
-html, body{
-    padding: 0;
-    margin: 0;
-    display: grid;
-    font-family: Raleway, sans-serif;
-    font-weight: lighter;
-    text-align: center;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  font-family: Raleway, sans-serif;
+  font-weight: lighter;
+  text-align: center;
 }
 /*TYPOGRAPHY*/
 
 /*Headings*/
-h1, h2, h3, h4, h5, h6{
-    color: #004D40;
-    font-family: 'Roboto Slab', Roboto, serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #004d40;
+  font-family: "Roboto Slab", Roboto, serif;
 }
 
 /*Paragraphs*/
-p{
-    color: #757575;
+p {
+  color: #757575;
 }
 
 /*links*/
-a{
-    color: #007755;
-    background-color: #F5F5F5;
-    text-decoration: none;
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
+a {
+  color: #007755;
+  background-color: #f5f5f5;
+  text-decoration: none;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
 }
-a:hover{
-    color: #E0F2F1;
-    background-color: #007755;
+a:hover {
+  color: #e0f2f1;
+  background-color: #007755;
 }
 
 /*MAIN SECTIONS*/
@@ -49,13 +55,13 @@ a:hover{
 /*main*/
 
 /*footer*/
-footer{
-    background-color: #B0B0B0;
-    width: 100%;
-    margin-top: 1rem;
+footer {
+  background-color: #b0b0b0;
+  width: 100%;
+  margin-top: 1rem;
 }
 
-footer p{
-    margin: 0;
-    padding: 0;
+footer p {
+  margin: 0;
+  padding: 0;
 }
