@@ -79,15 +79,13 @@ header {
 
 /*footer*/
 footer {
-  display: flexbox;
+  display: flex;
   background-color: #b0b0b0;
   width: 100%;
   margin-top: 1rem;
   justify-content: center;
-}
-
-footer p {
   margin: 0;
   padding: 0;
   align-items: center;
+  justify-content: center;
 }
