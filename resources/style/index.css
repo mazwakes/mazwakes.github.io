@@ -76,6 +76,10 @@ header {
 }
 
 /*main*/
+.portfolio {
+  display: none;
+}
+
 
 /*footer*/
 footer {
