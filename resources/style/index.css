@@ -84,8 +84,8 @@ footer {
   width: 100%;
   margin-top: 1rem;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  margin: 1rem 0 0 0;
+  padding: 0 0 0 0;
   align-items: center;
   justify-content: center;
 }
