@@ -65,6 +65,7 @@ html, body, main{
 }
 #submit{
     box-sizing: border-box;
+    display: flex;
     width: 25%;
     color: #004d40;
     background-color: #e0f2f1;
@@ -72,6 +73,10 @@ html, body, main{
     display: flex;
     padding: 0.25rem;
     border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    justify-content: center;
 }
 
  input, textarea{
