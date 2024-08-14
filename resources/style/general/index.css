@@ -6,6 +6,8 @@
   --secondary-color-2: #f5f5f5; /*borders, background sections, add depth*/
   --secondary-color-3: #b0b0b0; /*footer, less prominent areas*/
   --links-color: #007755; /*color for links*/
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 html,
@@ -20,6 +22,7 @@ body {
 /*TYPOGRAPHY*/
 
 /*Headings*/
+h1,
 h1,
 h2,
 h3,
@@ -86,10 +89,20 @@ footer {
   display: flex;
   background-color: #b0b0b0;
   width: 100%;
-  margin-top: 1rem;
   justify-content: center;
   margin: 1rem 0 0 0;
   padding: 0 0 0 0;
   align-items: center;
-  justify-content: center;
+}
+
+/*page specific */
+/*CONTACTS*/
+.my-contact{
+  display: inline-flex;
+  width: 50%;
+}
+
+.contact-me{
+  display: inline-flex;
+  width: 50%;
 }
