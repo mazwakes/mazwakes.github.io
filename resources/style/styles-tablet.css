@@ -40,6 +40,9 @@ header{
     height: 75px;
 }
 
+#Small-logo{
+    display: none;
+}
 /*MAIN*/
 
 /*FOOTER*/
