@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdca2e0-b16d-418e-9b9b-7d0c087e5049" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_not_found.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TODO/To-Do List" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Maz Wakes/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Maz Wakes/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/Maz Wakes/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/profilePic.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/styles-desktop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/styles-mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/styles-tablet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_page.html" beforeDir="false" />
-    </list>
+    <list default="true" id="2bdca2e0-b16d-418e-9b9b-7d0c087e5049" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +34,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723663161095</updated>
-      <workItem from="1723663162264" duration="5597000" />
+      <workItem from="1723663162264" duration="6088000" />
     </task>
     <servers />
   </component>
