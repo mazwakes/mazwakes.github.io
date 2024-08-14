@@ -9,50 +9,108 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- STYLING -->
-    <link rel="stylesheet" href="../resources/style/general/index.css">
-    <link rel="stylesheet" href="../resources/style/general/styles-desktop.css" media="screen and (min-width: 1025px)">
-    <link rel="stylesheet" href="../resources/style/general/styles-tablet.css" media="screen and (min-width: 768px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="../resources/style/general/styles-mobile.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="./resources/style/general/index.css">
+    <link rel="stylesheet" href="./resources/style/general/styles-desktop.css" media="screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="./resources/style/general/styles-tablet.css" media="screen and (min-width: 768px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="./resources/style/general/styles-mobile.css" media="screen and (max-width: 767px)">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--SAME FOR ALL PAGES-->
+    <link rel="stylesheet" href="./resources/style/page/index.css">
     <title>HomePage</title>
   </head>
   <body>
-    <!-- HEADER  SAME FOR ALL PAGES-->
-    <header>
-      <div id="header">
-        <div class="logo">
-          <div id="Full-logo">
-            <img src="../resources/media/images/Maz Wakes/1.png" alt="Maz Wakes Company Logo">
+    <div id="page-container">
+      <!-- HEADER  SAME FOR ALL PAGES-->
+      <header>
+        <div id="header">
+          <div class="logo">
+            <div id="Full-logo">
+              <img src="./resources/media/images/Maz Wakes/1.png" alt="Maz Wakes Company Logo">
+            </div>
+            <div id="Small-logo">
+              <img src="./resources/media/images/Maz Wakes/2.png" alt="Maz Wakes Company Logo">
+            </div>
           </div>
-          <div id="Small-logo">
-            <img src="../resources/media/images/Maz Wakes/2.png" alt="Maz Wakes Company Logo">
+          <div>
+            <nav>
+              <a href="./index.html">Home</a>
+              <a href="./pages/page_not_found.html">About</a>
+              <a href="./pages/portfolio.html">Portfolio</a>
+              <a href="./pages/contact.html">Contact</a>
+            </nav>
           </div>
         </div>
-        <div>
-          <nav>
-            <a href="./index.html">Home</a>
-            <a href="./pages/page_not_found.html">About</a>
-            <a href="./pages/portfolio.html">Portfolio</a>
-            <a href="./pages/contact.html">Contact</a>
-          </nav>
-        </div>
+      </header>
+      <div id="content-wrap">
+        <!-- HEADER  SAME FOR ALL PAGES-->
+        <main>
+          <div class="home-section-1">
+            <h1 id="title">Welcome</h1>
+            <h2>My name is Malia</h2>
+            <p>I am a full-stack developer who is available to work.</p>
+          </div>
+          <div class="homepage-portfolio">
+            <div class="portfolio-title">
+              <h1>Quick View of My Portfolio</h1>
+            </div>
+            <div class="small-portfolio-grid">
+              <div class="project">
+                <div class="project-pic">
+                  <img src="./resources/media/images/placeholder.jpeg" alt="">
+                </div>
+                <div class="project-description">
+                  <p class="project-title">Title</p>
+                  <p>Description of Project.</p>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-pic">
+                  <img src="./resources/media/images/placeholder.jpeg" alt="">
+                </div>
+                <div class="project-description">
+                  <p class="project-title">Title</p>
+                  <p>Description of Project.</p>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-pic">
+                  <img src="./resources/media/images/placeholder.jpeg" alt="">
+                </div>
+                <div class="project-description">
+                  <p class="project-title">Title</p>
+                  <p>Description of Project.</p>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-pic">
+                  <img src="./resources/media/images/placeholder.jpeg" alt="">
+                </div>
+                <div class="project-description">
+                  <p class="project-title">Title</p>
+                  <p>Description of Project.</p>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-pic">
+                  <img src="./resources/media/images/placeholder.jpeg" alt="">
+                </div>
+                <div class="project-description">
+                  <p class="project-title">Title</p>
+                  <p>Description of Project.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
       </div>
-    </header>
-    <!-- HEADER  SAME FOR ALL PAGES-->
-    <main>
-      <h1>Welcome to My Website</h1>
-      <p>
-        Content coming soon...
-      </p>
-    </main>
-    <!-- FOOTER  SAME FOR ALL PAGES-->
-    <footer>
-      <p>&copy; 2024 Malia Wakesho-Ajwang. All rights reserved.</p>
-    </footer>
-    <!-- FOOTER  SAME FOR ALL PAGES-->
+      <!-- FOOTER  SAME FOR ALL PAGES-->
+      <footer>
+        <p>&copy; 2024 Malia Wakesho-Ajwang. All rights reserved.</p>
+      </footer>
+      <!-- FOOTER  SAME FOR ALL PAGES-->
+    </div>
   </body>
 </html>

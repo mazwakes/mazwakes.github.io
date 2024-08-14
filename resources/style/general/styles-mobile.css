@@ -50,3 +50,7 @@ header{
 footer{
     height: 30px;
 }
+
+#content-wrap {
+    padding-bottom: 30px;    /* Footer height */
+}

@@ -49,3 +49,7 @@ header{
 footer{
     height: 35px;
 }
+
+#content-wrap {
+    padding-bottom: 35px;    /* Footer height */
+}

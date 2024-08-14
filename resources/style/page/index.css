@@ -1,0 +1,79 @@
+html, body, main{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.home-section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:90vh;
+}
+
+#title{
+    font-size: 5rem;
+}
+h1, h2, p{
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.homepage-portfolio{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #e0f2f1;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.portfolio-title{
+    display: flex;
+}
+
+.small-portfolio-grid{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 30vh;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.project{
+    box-sizing: border-box;
+    height: 50vh;
+    width: 30%;
+    min-width: 400px;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.project-pic{
+    width: 50%;
+    max-height: 50%;
+    padding-bottom: 0.5rem;
+}
+
+.project-pic img{
+    width: 100%;
+    height: auto;
+}
+
+.project-title{
+    font-weight: bold;
+    font-size: 1.125rem;
+}

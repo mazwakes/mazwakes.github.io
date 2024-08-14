@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bdca2e0-b16d-418e-9b9b-7d0c087e5049" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/style/page/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/Guides/General" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/Guides/General" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/general/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/general/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/general/styles-desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/general/styles-desktop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/general/styles-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/general/styles-mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/general/styles-tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/general/styles-tablet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/page/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/page/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,9 +33,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2kf8Ef6jdLsifIY1megYVZOWGgK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "homepage",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723663161095</updated>
       <workItem from="1723663162264" duration="6264000" />
+      <workItem from="1723672724621" duration="6048000" />
     </task>
     <servers />
   </component>

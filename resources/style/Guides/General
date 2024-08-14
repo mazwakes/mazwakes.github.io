@@ -18,11 +18,11 @@ Color Palette:
 
 Font Styles:
     Headings:
-    - Font: Roboto Slab
+    - Font:
     - Weight: Bold for headings
     - Size: Adjust sizes for different levels (e.g. h1, h2, h3) to establish a clear hierarchy.
     Body Text:
-    - Font: Raleway
+    - Font:
     - Weight: Lighter
     - Size: 16px (mobile), 17px (tablet), 18px (desktop)
     Code Snippets:
