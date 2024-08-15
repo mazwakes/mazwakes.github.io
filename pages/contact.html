@@ -22,69 +22,92 @@
         <title>Contact</title>
     </head>
     <body>
-        <header>
-            <div id="header">
-              <div class="logo">
-                <div id="Full-logo">
-                  <img src="../resources/media/images/Maz Wakes/1.png" alt="Maz Wakes Company Logo">
-                </div>
-                <div id="Small-logo">
-                  <img src="../resources/media/images/Maz Wakes/2.png" alt="Maz Wakes Company Logo">
-                </div>
-              </div>
-              <div>
-                <nav>
-                  <a href="../index.html">Home</a>
-                  <a href="./page_not_found.html">About</a>
-                  <a href="./portfolio.html">Portfolio</a>
-                  <a href="./contact.html">Contact</a>
-                </nav>
-              </div>
+        <div id="page-container">
+            <div id="content-wrap">
+                <header>
+                    <div id="header">
+                        <div class="logo">
+                            <div id="Full-logo">
+                                <img src="../resources/media/images/Maz Wakes/1.png" alt="Maz Wakes Company Logo">
+                            </div>
+                            <div id="Small-logo">
+                                <img src="../resources/media/images/Maz Wakes/2.png" alt="Maz Wakes Company Logo">
+                            </div>
+                        </div>
+                        <div>
+                            <nav>
+                                <a href="../index.html">Home</a>
+                                <a href="./page_not_found.html">About</a>
+                                <a href="./portfolio.html">Portfolio</a>
+                                <a href="./contact.html">Contact</a>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <h1>Contact</h1>
+                    <div id="contact-body">
+                        <div id="my-contact">
+                            <h2>My Contacts</h2>
+                            <div id="profile-pic">
+                                <img src="../resources/media/images/ProfilePic.jpeg" alt="">
+                            </div>
+                            <div id="contact-info">
+                                <p>Name: Malia Wakesho-Ajwang</p>
+                                <p>Email: mazwakes.innovation@gmail.com</p>
+                            </div>
+                            <div class="social-media-bar">
+                                <div class="icon">
+                                    <a href="https://www.linkedin.com/in/malia-wakesho-ajwang"><img src="../resources/media/images/icons/linkedin-black-logo-icon.png" alt="linkedIn icon"></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="https://github.com/mazwakes"><img src="../resources/media/images/icons/github.png" alt="GitHub icon"></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="https://www.instagram.com/mazwakes.innovation/?utm_source=ig_web_button_share_sheet"><img src="../resources/media/images/icons/instagram.png" alt="Instagram icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="contact-me">
+                            <h2>Contact Form</h2>
+                            <p id="fill-form">Please fill out the form below to reach me.</p>
+                            <div id="form">
+                                <form action="" method="post">
+                                    <section class="form-section">
+                                        <label for="firstname">First Name:</label><br>
+                                        <input type="text" id="firstname" name="firstname" placeholder="Jane">
+                                    </section>
+                                    <section class="form-section">
+                                        <label for="lastname">Last Name:</label><br>
+                                        <input type="text" id="lastname" name="lastname" placeholder="Doe">
+                                    </section>
+                                    <section class="form-section">
+                                        <label for="email">Email:</label><br>
+                                        <input type="email" id="email" name="email" placeholder="jane.doe@email.com">
+                                    </section>
+                                    <section class="form-section">
+                                        <label for="message">Message:</label><br>
+                                        <textarea id="message" name="message" placeholder="I would like to have a website built for ..."></textarea>
+                                    </section>
+                                    <section class="form-section" id="submit-button">
+                                        <button id="submit" type="submit" value="Submit">Submit</button>
+                                    </section>
+                                </form>
+                                <script>
+                                    document.getElementById("form").addEventListener('submit', function(event){
+                                        event.preventDefault();
+                                        document.getElementById("form").style.display = 'none';
+                                        document.getElementById("fill-form").innerHTML = 'Thank for filling out the form. I will get back to you shortly.';
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </main>
             </div>
-        </header>
-        <main>
-            <h1>Contact</h1>
-            <div id="contact-body">
-              <div id="my-contact">
-                <h2>My Contacts</h2>
-                <div id="profile-pic">
-                  <img src="../resources/media/images/ProfilePic.jpeg" alt="">
-                </div>
-                <div id="contact-info">
-                  <p>Name: Malia Wakesho-Ajwang</p>
-                  <p>Email: mazwakes.innovation@gmail.com</p>
-                </div>
-              </div>
-              <div id="contact-me">
-                  <h2>Contact Form</h2>
-                  <div id="form">
-                      <section class="form-section">
-                          <label for="firstname">First Name:</label><br>
-                          <input type="text" id="firstname" name="firstname" placeholder="Jane">
-                      </section>
-                      <section class="form-section">
-                          <label for="lastname">Last Name:</label><br>
-                          <input type="text" id="lastname" name="lastname" placeholder="Doe">
-                      </section>
-                      <section class="form-section">
-                          <label for="email">Email:</label><br>
-                          <input type="email" id="email" name="email" placeholder="jane.doe@email.com" required>
-                      </section>
-                      <section class="form-section">
-                          <label for="message">Message:</label><br>
-                          <textarea id="message" name="message" placeholder="I would like to have a website built for ..."></textarea>
-                      </section>
-                      <section class="form-section" id="submit-button">
-                          <input id="submit" type="submit" value="Submit">
-                      </section>
-                  </div>
-              </div>
-            </div>
-        </main>
-        <!-- FOOTER  SAME FOR ALL PAGES-->
-        <footer>
+            <footer><!-- FOOTER  SAME FOR ALL PAGES-->
             <p>&copy; 2024 Malia Wakesho-Ajwang. All rights reserved.</p>
-        </footer>
-        <!-- FOOTER  SAME FOR ALL PAGES-->
+            </footer> <!-- FOOTER  SAME FOR ALL PAGES-->
+        </div>
     </body>
 </html>
