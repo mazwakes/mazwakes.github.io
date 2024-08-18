@@ -39,8 +39,18 @@ h6 {
 }
 
 /*Paragraphs*/
-p {
+p, ul, ol, li{
   color: #757575;
+}
+
+ul, ol, li{
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+.project-feature{
+  font-weight: 400;
 }
 
 /*links*/
