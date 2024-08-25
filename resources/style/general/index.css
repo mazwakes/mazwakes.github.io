@@ -106,6 +106,7 @@ footer {
   align-items: center;
   position: absolute;
   bottom: 0;
+  min-height: fit-content;
 }
 
 #page-container{

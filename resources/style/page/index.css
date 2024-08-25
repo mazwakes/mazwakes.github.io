@@ -35,8 +35,12 @@ h1, h2, p{
     padding: 1rem;
 }
 
-.portfolio-title{
-    display: flex;
+.project-description{
+    text-align: center;
+}
+
+.project-description ul{
+    text-align: left;
 }
 
 .small-portfolio-grid{
@@ -48,7 +52,6 @@ h1, h2, p{
     width: 100%;
     height: fit-content;
     flex-direction: row;
-    padding: 1rem;
 }
 
 .project{
@@ -56,21 +59,28 @@ h1, h2, p{
     height: 50vh;
     width: 30%;
     min-width: 400px;
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
     padding: 1rem;
     flex-direction: column;
+    justify-content: center;
 }
 
 .project-pic{
     width: 50%;
     max-height: 50%;
     padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-pic img{
     width: 100%;
     height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .project-title{
