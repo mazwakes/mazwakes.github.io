@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdca2e0-b16d-418e-9b9b-7d0c087e5049" name="Changes" comment="">
+    <list default="true" id="2bdca2e0-b16d-418e-9b9b-7d0c087e5049" name="Changes" comment="added new images">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/images/CodecademyContribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/images/EmoryASA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/images/Ridgeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/images/mixedMessages.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/general/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/general/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/page/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/page/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mazwakes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ec1b3530-cd8b-484a-aa6e-4400e724bca7" />
+        <option name="url" value="https://github.com/mazwakes/mazwakes.github.io.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -29,12 +54,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2kf8Ef6jdLsifIY1megYVZOWGgK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -59,7 +88,42 @@
       <workItem from="1723663162264" duration="6264000" />
       <workItem from="1723672724621" duration="6048000" />
       <workItem from="1723682902552" duration="2686000" />
+      <workItem from="1724254255062" duration="6451000" />
+      <workItem from="1724612265240" duration="1548000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Index page's small portfolio and fixed footer for mobile view">
+      <option name="closed" value="true" />
+      <created>1724457916365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724457916365</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated Index page's small portfolio and fixed footer for mobile view">
+      <option name="closed" value="true" />
+      <created>1724458026329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724458026329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted files">
+      <option name="closed" value="true" />
+      <created>1724611451925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724611451925</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new images">
+      <option name="closed" value="true" />
+      <created>1724612372329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724612372329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +139,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated Index page's small portfolio and fixed footer for mobile view" />
+    <MESSAGE value="deleted files" />
+    <MESSAGE value="added new images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new images" />
   </component>
 </project>
